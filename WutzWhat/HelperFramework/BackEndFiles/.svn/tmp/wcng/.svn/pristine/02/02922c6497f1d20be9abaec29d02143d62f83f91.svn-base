@@ -1,0 +1,15 @@
+//
+//  Utiltiy.h
+//  Swella
+//
+//  Created by Yunas Qazi on 3/24/12.
+//  Copyright (c) 2012 Style360. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface Utiltiy : NSObject
+
++(BOOL) isNumeric :(NSString *)str;
++(BOOL) isPhoneNumber :(NSString *)str;
+@end

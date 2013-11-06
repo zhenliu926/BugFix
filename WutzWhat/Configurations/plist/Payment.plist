@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountryList</key>
+	<array>
+		<string>USA</string>
+		<string>Canada</string>
+	</array>
+	<key>CardTypes</key>
+	<array>
+		<string>VISA</string>
+		<string>Master</string>
+		<string>Discover</string>
+		<string>American Express</string>
+	</array>
+</dict>
+</plist>

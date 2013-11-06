@@ -1,0 +1,59 @@
+//
+//  DateField.m
+//  TradiePoint
+//
+//  Created by INMM001 on 9/5/12.
+//  Copyright (c) 2012 Tkxel. All rights reserved.
+//
+
+#import "DateField.h"
+
+@implementation DateField
+
+@synthesize datePicker = _datePicker;
+@synthesize toolbar = _toolbar;
+
++(DateField*)createDateField
+{
+    
+    NSArray *objects = [[NSBundle mainBundle] loadNibNamed:@"DateField" owner:self options:nil];
+    DateField *dateField = [objects objectAtIndex:0];
+    [dateField.datePicker addTarget:self action:@selector(valueChanged:) forControlEvents:UIControlEventValueChanged];
+    dateField.toolbar = [objects objectAtIndex:2];
+    
+    dateField.inputView = dateField.datePicker;
+    dateField.inputAccessoryView = dateField.toolbar;
+    return dateField;
+}
+
+-(IBAction)valueChanged:(id)sender {
+    
+    UIDatePicker *dPicker = (UIDatePicker*)sender;
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"MM/dd/yyyy"];
+    self.text = [dateFormatter stringFromDate:dPicker.date];
+}
+
+
+-(IBAction)btnSelect:(id)sender {
+    
+    NSArray *objects = [[NSBundle mainBundle] loadNibNamed:@"DateField" owner:self options:nil];
+    UIDatePicker *dPicker = [objects objectAtIndex:1];
+   
+    
+    [self resignFirstResponder];
+}
+
+-(void)apply {
+    
+    NSArray *objects = [[NSBundle mainBundle] loadNibNamed:@"DateField" owner:self options:nil];
+    UIDatePicker *dPicker = [objects objectAtIndex:1];
+//     dPicker.maximumDate = [NSDate date];
+    UIToolbar *tBar = [objects objectAtIndex:2];
+    
+    self.inputView = dPicker;
+    self.inputAccessoryView = tBar;
+    
+}
+
+@end

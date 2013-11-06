@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Question</key>
+		<string>What is this app’s mission?</string>
+		<key>Answer</key>
+		<string>Whether new to a city or a busy local professional, when you make the decision to go out on the town with friends or treat yourself to a day at the spa, you want to know you’re making the right decision.\nWutzwhat’s mission is to present the best a city has to offer in an instantaneous and organized manner. We seek to bring you the excitement of discovery by giving you access to new opportunities, new experiences, and a connected community.</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>What is Wutzwhat’s ‘Best of’ selection process and / or curator approach?</string>
+		<key>Answer</key>
+		<string>Wutzwhat’s team of curators finds the best in your city, each day. We combine research, reviews, expert opinions, and local knowledge to make impartial decisions on who makes the cut. Uniquely, we combine first-hand experience with high-quality research to provide the most genuine experiences possible for our community.\nWe aggregate our selections from such research sources as: Users, Industry Thought Leaders, Staff Picks, Wutzwhat Secret Shopping, Interviews, Publications, Bloggers, Social Media, Review Sites, Top Ten Lists, Polls, Special Focus Groups and Awards Associations.</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>What range of places do Wutzwhat’s categories cover?</string>
+		<key>Answer</key>
+		<string>Food - Dining destinations, spotlighting atmosphere and select dishes.\nShopping - Trending boutiques, hidden gems and time-honored classics.\nNightlife - Top after-dark spots, from pubs to clubs.\nEvents - Can’t miss experiences both under-the-radar and over-the-top.\nServices - Tours, classes, fitness, spas, tattoo parlors, grocery delivery, and much more.\nConcierge - Superior hotels and city transportation.</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>That is the Wutzwhat Factor exactly?</string>
+		<key>Answer</key>
+		<string>Wutzwhat selects a business because they are the best at something. We spotlight that something! Whether it’s what they are renowned for, or why regulars keep coming back, we’ll show you the hidden Wutzwhat factor that sets them apart from their competition.</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>What are Perks and Credits?</string>
+		<key>Answer</key>
+		<string>Perks are an exclusive member’s loyalty program that uses a Credit reward system to offer additional access or savings. We set you up with custom offers from you favorite brand’s best products, services and events. You can redeem your earned Credits when you make a Perk purchase.</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>How do I earn more Credits?</string>
+		<key>Answer</key>
+		<string>Credits are awarded for:\n\nWhen a referred friend downloads the app using your invite code\n• Sharing the your favorite Picks on social media\n• Redeeming a special Promo Code on check-in at a location or remotely\n• Becoming a guest curator by submitting your best My Finds to Wutzwhat and having them selected and used in an official Wutzwhat pick(by Location, Editorial, and / or Photos)\nBy purchasing Perks or booking reservations\n• Attending special Wutzwhat sponsored events\n• During special occasions ~ like your Birthday!\n• Secret bonus Credits are available for you to discover</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>What does the brand name ‘Wutzwhat’ mean?</string>
+		<key>Answer</key>
+		<string>Wutzwhat is a noun connoting the facts, the lowdown and the current state of affairs. It’s our purpose to keep you well informed to know what’s what.</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>What are your city customer service numbers?</string>
+		<key>Answer</key>
+		<string>Toronto: +1-647-831-9157\nNew York: +1-646-202-2400\nLos Angeles: +1-310-242-6767</string>
+	</dict>
+</array>
+</plist>

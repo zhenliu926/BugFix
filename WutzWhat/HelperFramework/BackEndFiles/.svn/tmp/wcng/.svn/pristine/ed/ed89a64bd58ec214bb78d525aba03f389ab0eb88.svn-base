@@ -1,0 +1,23 @@
+//
+//  HeaderActionController.h
+//  Swella
+//
+//  Created by Mac Book on 3/3/12.
+//  Copyright (c) 2012 Style360. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "HeaderViewController.h"
+#import "AppSettings.h"
+
+@interface HeaderActionController : NSObject<HeaderViewControllerDelegate>
+{
+    HeaderViewController *headerVC;
+    AppSettings *settings;    
+}
+@property(nonatomic,retain) UIViewController *controller;
+
+-(void) releaseCalendarCachedData;
+-(void) HanldeLoginAction;
+-(void) updateUserName:(NSString *)firstName andLastName:(NSString *)lastName;
+@end
